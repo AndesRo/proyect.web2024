@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c831b;
+    color: darkgrey;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1c831b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 38px;
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #1c831b;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.event-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #1c831b;
+    color: white;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 10px;
+}
+
+.formulario {
+    margin-bottom: 15px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+    color: #1c831b;
+    font-weight: bold;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"],
+.formulario input[type="date"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario textarea,
+.formulario select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.formulario input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #1c831b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #155e13;
+}
+
+footer {
+    text-align: center;
+    background-color: #1c831b;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Media query para pantallas de hasta 768px (dispositivos móviles) */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+    nav {
+        padding: 5px 0;
+    }
+    nav a {
+        margin: 0 5px;
+    }
+    section {
+        padding: 10px;
+    }
+    .event-img {
+        margin-bottom: 10px;
+    }
+    th, td {
+        padding: 5px;
+    }
+    .formulario input[type="submit"] {
+        padding: 8px 15px;
+    }
+    footer {
+        padding: 10px 0;
+    }
+    /* Estilo específico para los iframes de los videos */
+    #videos-relacionados iframe {
+        width: 100%;
+        height: 315px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+}
